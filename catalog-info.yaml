@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backdora5
+  annotations:
+    github.com/project-slug: JustinPrins01/backdora5
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guest
