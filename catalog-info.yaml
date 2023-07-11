@@ -1,10 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backdora5
-  annotations:
-    github.com/project-slug: JustinPrins01/backdora5
+  name: testing-yaml-file
+  description: this is a test file for the software catalog
+  tags:
+    - go
+    - website
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guest
+  type: service
+  lifecycle: production
+  owner: team-test
